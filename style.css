@@ -1,0 +1,120 @@
+@import 'utilities.css';
+:root{
+ --primary:#ef5777;
+ --dark:#161616;
+ --pure:#FFFFFF;
+ --ternary: #f8c291;
+ --light:#F2F2F2;
+ --secondary:#070606;
+}
+body{
+ font-family:'Poppins', sans-serif;
+}
+*{
+ padding: 0;
+ margin:0;
+ box-sizing: border-box;
+ -webkit-font-smotthing:antialiased;
+}
+header{
+ background: var(--dark);
+ clip-path:polygon(0 0,100% 0,100% 
+100%,70% 90%,0 100%);
+}
+.container{
+ max-width: 1152px;
+ padding: 0 15px;
+ margin:0 auto;
+}
+header nav .left a{
+ color: var(--pure);
+ text-decoration: none ;
+ margin-right:2rem;
+ text-transform:uppercase;
+ transition:all.3s ease;
+}
+header nav .left a:hover{
+ color:var(--primary);
+}
+header nav{
+ padding:2rem 0;
+}
+header nav .branding{
+ margin-right:3rem;
+}
+.crazy .right{
+ color:var(--pure);
+}
+.crazy .right h6{
+ font-size:1.6rem;
+ color: var(--primary);
+ margin-bottom:0.5rem;
+}
+.crazy .right h1{
+ font size:4rem;
+ color: var(--pure);
+ font-weight:100;
+ margin-bottom: 2rem;
+}
+.crazy .right h1 span{
+ color: var(--primary);
+ font-family:'Comfortaa',sans-serif;
+}
+.crazy .right p{
+ line-height:1.9;
+ margin-bottom:2rem;
+ color: var(--pure);
+}
+section{
+ padding: 6rem 0;
+}
+section.About h1{
+ margin-bottom: 1rem;
+ font-size:3rem;
+ font-weight: 400;
+}
+section.About h1 span{
+ color: var(--primary);
+}
+section.About h3 {
+ font-size:2rem;
+ margin-bottom:1rem;
+ font-family:'Comfortaa',sans-serif;
+}
+section.About p {
+ line-height:1.9;
+ margin-bottom:1.9;
+ font-family:'Poppins', sans-serif;
+}
+.section-heading{
+ color:var(--pure);
+ text-align: center;
+ margin-bottom:1rem;
+ line-height:0.5;
+ font-size:3rem;
+}
+section.Work .cheeku{
+ display:grid;
+}
+.section-heading span{
+ color: var(--primary);
+}
+section.Work h2{
+ font-family:'Comfortaa',sans-serif;
+ color:var(--pure);
+}
+section.Work{
+ background: var(--dark);
+ clip-path:polygon(0 0,100% 0,100% 
+100%,70% 90%,0 100%);
+}
+.cheeku2{
+ text-align:center;
+ line-height:0.5;
+ font-size:3rem;
+}
+.card-wrapper{
+ text-align:center;
+ font-size:1.5rem;
+ padding:2rem 0;
+}
